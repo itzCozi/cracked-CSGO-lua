@@ -1,6 +1,3 @@
---[[
-stay og leaks botix
-]]
 
 _DEBUG = true
 
@@ -411,7 +408,6 @@ local menu = {
 panorama.SteamOverlayAPI.OpenExternalBrowserURL("https://discord.gg/og4leaks")
 panorama.SteamOverlayAPI.OpenExternalBrowserURL("https://discord.gg/og4leaks")
 
---nigger code
 local raw_hwnd 			= utils.opcode_scan("engine.dll", "8B 0D ?? ?? ?? ?? 85 C9 74 16 8B 01 8B") or error("Invalid signature #1")
 local raw_FlashWindow 	= utils.opcode_scan("gameoverlayrenderer.dll", "55 8B EC 83 EC 14 8B 45 0C F7") or error("Invalid signature #2")
 local raw_insn_jmp_ecx 	= utils.opcode_scan("gameoverlayrenderer.dll", "FF E1") or error("Invalid signature #3")

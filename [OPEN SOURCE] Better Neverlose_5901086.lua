@@ -17,6 +17,11 @@
     Project owner: xXYu3_zH3nGL1ngXx
     Updated date: 8/26/2023
 ]]
+-- Coopers recode
+
+-- TODO: Rewrite the trashtalk list 
+-- TODO: Remove all the discord redirects
+
 
 local version = "8/26/2023 - 4.5"
 _DEBUG = true
@@ -544,9 +549,9 @@ nick.missed_sound = function ()
     end)
 end
 
-nick.vote_reveals = function()
+nick.vote_reveals = function() -- This is actually good code lmao
     events.vote_cast:set(function(e)
-        -- Source from: https://en.neverlose.cc/market/item?id=7IeKYA
+        -- Source from: https://en.neverlose.cc/market/item?id=7IeKYA (COOPER LOOK INTO THIS LMAO)
         -- This event only on https://wiki.alliedmods.net/Generic_Source_Events
     
         if not nick.menu.misc.vote:get() then return end
