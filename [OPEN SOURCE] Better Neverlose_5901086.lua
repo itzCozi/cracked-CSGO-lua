@@ -20,8 +20,6 @@
 -- Coopers recode
 
 -- TODO: Rewrite the trashtalk list 
--- TODO: Remove all the discord redirects
-
 
 local version = "8/26/2023 - 4.5"
 _DEBUG = true
