@@ -31,7 +31,7 @@ end)
 
 -- Pasted example function for trashtalk
 nick.trashtalk = function ()
-  -- Think i have to make a menu element
+  -- Need to make a menu element
   events.aim_ack:set(function(e)
       local target = e.target
       local get_target_entity = entity.get(target)
@@ -45,7 +45,7 @@ nick.trashtalk = function ()
           return end
       if health == 0 then
           utils.console_exec("say " .. (nick.Elements.trashtalk.text:get()):format(target:get_name()))
-        end
+          end
           
       end
   end)
