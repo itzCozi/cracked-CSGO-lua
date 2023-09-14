@@ -1,5 +1,6 @@
 --https://lua.neverlose.cc/documentation/events
 -- Make a bot to chat the missed log (find out how to get from search) using console exec
+-- Add the vote revealer to this script
 
 -- Fast ladder function (passive)
 events.createmove:set(function(e)
