@@ -1,1 +1,2 @@
 --https://lua.neverlose.cc/documentation/events
+-- Make a bot to chat the missed log (find out how to get from search) using console exec
